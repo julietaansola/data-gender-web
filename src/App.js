@@ -7,6 +7,8 @@ class App extends React.Component {
   return (
     <div className="App">
       <p>abajo el patriarcado</p>
+      <p>abajo el patriarcado</p>
+
     </div>
   );
 }
