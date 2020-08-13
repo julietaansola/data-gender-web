@@ -1,17 +1,36 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { Route, NavLink, HashRouter } from "react-router-dom";
 
-class App extends React.Component {
-  render() {
+const App = () => {
   return (
-    <div className="App">
-      <p>abajo el patriarcado</p>
-      <p>abajo el patriarcado</p>
+    <HashRouter>
+      <div className="header">
+        <div className="information">
+          <NavLink className="link home" exact to="/">
+            {" "}
+            Home
+          </NavLink>
+          <NavLink className="link library" to="/info">
+            {" "}
+            Who we are{" "}
+          </NavLink>
+          <NavLink className="link contact" to="/contact">
+            {" "}
+            Contact
+          </NavLink>
+        </div>
+      </div>
+      <div className="content-wrapper">
+        <Route exact path="/" component={Home} />
+        <Route exact path="/contacto" component={Contact} />
+        <Route exact path="/quienes-somos" component={WhoWeAre} />
+        <Route exact path="/mision" component={Mision} />
 
-    </div>
+      </div>
+      <div className="footer"></div>
+    </HashRouter>
   );
-}
-}
+};
 
 export default App;
