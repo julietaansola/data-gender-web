@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+
+
 .who-we-are-content {
   width: 100%;
   display: flex;
@@ -5,12 +8,13 @@
   align-items: center;
   .who-we-are-title {
     font-size: 3rem;
+    padding: 30px;
+    letter-spacing: 2px;
   }
   .member-container {
     width: 100%;
     display: flex;
     justify-content: center;
-
     flex-wrap: wrap;
     margin: 0;
     .member {
@@ -19,8 +23,7 @@
       justify-content: center;
       align-items: center;
       width: 300px;
-      margin: 20px;
-      background-color: blue;
+      margin: 50px;
       .member-image {
         width: 250px;
         height: 250px;
@@ -29,12 +32,16 @@
       }
 
       .member-name{
-       background-color: red;
        margin: 10px;
+       font-size: 1.5rem;
       }
 
       .member-description{
         text-align: justify;
+        padding: 10px;
+        width: 90%;
+        font-weight: lighter;
+        font-family: 'PT Mono', monospace;
       }
     }
   }
