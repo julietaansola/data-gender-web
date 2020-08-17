@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import { Route, NavLink, HashRouter } from "react-router-dom";
+import Footer from "./components/footer/Footer";
 
 const App = () => {
   return (
@@ -28,7 +29,7 @@ const App = () => {
         <Route exact path="/mision" component={Mision} />
 
       </div>
-      <div className="footer"></div>
+      <Footer/>
     </HashRouter>
   );
 };
