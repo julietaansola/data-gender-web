@@ -1,0 +1,56 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url("./assets/ArcaMajora3-Bold.ttf");
+}
+
+body {
+  font-family: "myFirstFont";
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+  .header {
+    height: 80px;
+    background-color: #801C7E;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    .navbar {
+      padding: 30px;
+
+      .link {
+        text-decoration: none;
+        color: #fafafa;
+        margin: 10px;
+      }
+    }
+  }
+
+  .content-wrapper {
+    height: 100%;
+    width: 100%;
+    
+  }
+
+  .footer {
+    height: 350px;
+    background-color: #801C7E;
+    display: flex;
+    align-items: flex-end;
+    .design {
+      padding: 10px;
+      width: 100%;
+      background-color: #fafafa;
+      height: 15px;
+      color: black;
+      text-align: right;
+      .footer-link {
+        text-decoration: none;
+        color: #1a936f;
+      }
+    }
+  }
+}

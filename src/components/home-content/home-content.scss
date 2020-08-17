@@ -1,0 +1,22 @@
+.home-content-container {
+  height: 100vh;
+  width: 100%;
+  .home-content {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px;
+    .home-content-image{
+        width: 50%;
+        margin: 10px;
+        object-fit: cover;
+    }
+    .home-content-description{
+        width: 50%;
+        text-align: justify;
+        margin: 10px;
+
+    }
+  }
+}

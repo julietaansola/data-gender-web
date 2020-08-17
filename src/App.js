@@ -1,34 +1,38 @@
 import React from "react";
-import "./App.css";
+import "./App.scss";
 import { Route, NavLink, HashRouter } from "react-router-dom";
-
+import Home from "./components/home/Home";
+import Contact from "./components/contact/Contact";
+import WhoWeAre from "./components/who-we-are/WhoWeAre";
+import Mision from "./components/mision/Mision";
 const App = () => {
   return (
     <HashRouter>
-      <div className="header">
-        <div className="information">
-          <NavLink className="link home" exact to="/">
-            {" "}
+      <header className="header">
+        <nav className="navbar">
+          <NavLink className="link contact" to="/">
             Home
           </NavLink>
-          <NavLink className="link library" to="/info">
-            {" "}
-            Who we are{" "}
+          <NavLink className="link who-we-are" exact to="/mision">
+            Mision
           </NavLink>
-          <NavLink className="link contact" to="/contact">
-            {" "}
-            Contact
+          <NavLink className="link mision" to="/quienes-somos">
+            Quienes somos
           </NavLink>
-        </div>
-      </div>
-      <div className="content-wrapper">
+          <NavLink className="link contact" to="/contacto">
+            Contacto
+          </NavLink>
+        </nav>
+      </header>
+      <content className="content-wrapper">
         <Route exact path="/" component={Home} />
-        <Route exact path="/contacto" component={Contact} />
         <Route exact path="/quienes-somos" component={WhoWeAre} />
         <Route exact path="/mision" component={Mision} />
-
-      </div>
-      <div className="footer"></div>
+        <Route exact path="/contacto" component={Contact} />
+      </content>
+      <footer className="footer">
+        <div className="design">Diseñado y desarrollado por <a className="footer-link" href="https://github.com/maisli4"> Maia Slipczuk </a> y <a className="footer-link" href="https://github.com/camila-ng"> Camila González </a></div>
+      </footer>
     </HashRouter>
   );
 };

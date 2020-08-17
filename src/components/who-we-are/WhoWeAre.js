@@ -5,7 +5,7 @@ import './who-we-are.scss'
 const WhoWeAre = () => {
   return (
     <div className="who-we-are-content">
-      <h1 className="who-we-are-title">Quienes somos</h1>
+      <h1 className="who-we-are-title">QUIENES SOMOS</h1>
       <section className="member-container">
         {info.map((member) => (
           <div key={member.name} className="member">
