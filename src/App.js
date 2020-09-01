@@ -8,7 +8,10 @@ const App = () => {
   return (
     <HashRouter>
       <header className="header">
+        
         <nav className="navbar">
+          <button className="logo">G</button>
+          <div className="links-wrapper">
           <NavLink className="link contact" to="/">
             Home
           </NavLink>
@@ -21,6 +24,7 @@ const App = () => {
           <NavLink className="link contact" to="/">
             Contacto
           </NavLink>
+          </div>
         </nav>
       </header>
       <content className="content-wrapper">
