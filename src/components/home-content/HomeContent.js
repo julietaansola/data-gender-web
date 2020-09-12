@@ -4,6 +4,7 @@ const HomeContent = () => {
   return (
     <div className="home-content-container">
       <div className="home-content">
+       <div className='description-wrapper'> 
         <img
           className="home-content-image"
           src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1002&q=80"
@@ -21,16 +22,12 @@ const HomeContent = () => {
           causa de un hombre para ser la causa del pueblo, y por ella sí valdría
           la pena darlo todo, incluso la vida Gobernar es fácil, lo difícil es
           conducir El Justicialismo necesita apóstoles y para ser apóstol hay
-          que estar dispuesto a ser héroe, y solamente los fanáticos de amor por
-          una causa son capaces de morir por un ideal La verdadera democracia es
-          aquella donde el gobierno hace lo que el pueblo quiere y defiende un
-          solo interés: el del pueblo El Justicialismo ha dejado de ser la causa
-          de un hombre para ser la causa del pueblo, y por ella sí valdría la
-          pena darlo todo, incluso la vida Gobernar es fácil, lo difícil es
-          conducir Quien me quiera seguir, que me siga y quien me quiera
-          acompañar, que me acompañe
+          
         </p>
       </div>
+      
+       </div>
+     
     </div>
   );
 };

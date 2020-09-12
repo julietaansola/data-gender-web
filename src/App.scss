@@ -4,7 +4,8 @@
 }
 
 body {
-  font-family: "myFirstFont";
+  font-family: 'Montserrat', sans-serif;
+  
   height: 100%;
   width: 100%;
   box-sizing: border-box;
@@ -13,18 +14,39 @@ body {
   background-color: #fafafa;
   .header {
     height: 80px;
-    background-color: #801C7E;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    background-color: #534f53;
+    
+    
 
     .navbar {
-      padding: 30px;
+      
+      display: flex;
+      justify-content: space-between; 
+      align-content: center;
+      
+      .logo{;
+        margin: 20px;
+        height: 35px;
+        width: 35px;
+        border-radius: 30px;
+        border-style: none;
+        background-color: #8659B4;
+        color: white;
+        font-weight: bold;
+        font-size: 1.5em;
+      }
+      .links-wrapper {
+        display: flex;  
+        justify-content: flex-end;
+        
+          .link{
+          text-decoration: none;
+          color: #fafafa;
+          margin: 10px;
+          margin-top: 30px;
+          font-family: 'Montserrat', sans-serif;
 
-      .link {
-        text-decoration: none;
-        color: #fafafa;
-        margin: 10px;
+        }
       }
     }
   }
@@ -36,8 +58,9 @@ body {
   }
 
   .footer {
-    height: 350px;
-    background-color: #801C7E;
+    height: 200px;
+    background-color: #8659B4;
+    //background-color: #801C7E;
     display: flex;
     align-items: flex-end;
     .design {
