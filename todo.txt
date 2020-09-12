@@ -3,4 +3,6 @@ To do:
 1. Hay que hacer que Contact vaya hacia el footer.
 2. Hay que armar el footer.
 3. Arreglar el after y before del background.
-
+4. Hacer Footer y Header component. Hay que importar import { Route, NavLink, HashRouter } from "react-router-dom";
+en Header.
+5. Agregar en <Footer/> y <Header/> en App.js.
