@@ -7,7 +7,7 @@ const Home = () => {
     <div>
       <div className="home-container">
         <h1 className="home-title">
-          OBSERVATORIO DE DATOS CON PERSPECTIVA DE GÉNERO
+          OBSERVATORIO de DATOS con PERSPECTIVA de GÉNERO
         </h1>
       </div>
       <HomeContent />
