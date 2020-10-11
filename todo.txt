@@ -2,7 +2,9 @@ To do:
 
 1. Hay que hacer que Contact vaya hacia el footer.
 2. Hay que armar el footer.
-3. Arreglar el after y before del background.
+3. Cortar la trama que sobresale por derecha
 4. Hacer Footer y Header component. Hay que importar import { Route, NavLink, HashRouter } from "react-router-dom";
 en Header.
 5. Agregar en <Footer/> y <Header/> en App.js.
+6. Arreglar las rutas para que cada botón del Navbar vaya
+a la parte de la pág que corresponde y al Blog (externo).

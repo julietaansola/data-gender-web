@@ -1,21 +1,49 @@
 .home-content-container {
   height: 100vh;
   width: 100%;
+  
   .home-content {
+
+  .description-wrapper {
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-direction: row;
+
     .home-content-image{
-        width: 50%;
-        margin: 10px;
-        object-fit: cover;
+        width: 35%;
+        margin-top: 30px;
+        margin-left: 30px;
+        
     }
+
     .home-content-description{
-        width: 50%;
+        width: 60%;
         text-align: justify;
         margin: 10px;
+        font-size: 2em;
+        //font-weight: bold;
+        color: #3d3d3d;
       
+    }
+  }
+  }
+
+  .aliadxs {
+    .orgas-title{
+      font-size: 2em;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 50px;
+    }
+    .orgas-wrapper{
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-evenly;
+      .orga{
+        width: 200px;
+      }
     }
   }
 

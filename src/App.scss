@@ -23,22 +23,23 @@ body {
       display: flex;
       justify-content: space-between; 
       align-content: center;
+
       
       .logo{
-        margin: 20px;
-        height: 35px;
-        width: 35px;
-        border-radius: 30px;
+        margin: 10px;
+        margin-left: 25px;
+        height: 60px;
+        width: 50px;
         border-style: none;
-        background-color: #8659B4;
-        color: white;
-        font-weight: bold;
-        font-size: 1.5em;
+        background-color: #534f53;
+        background-image: url("./assets/button.png");
+        background-size: cover;
       }
       .links-wrapper {
         display: flex;  
         justify-content: flex-end;
-        
+        margin-right: 20px;
+
           .link{
           text-decoration: none;
           color: #fafafa;
@@ -60,6 +61,7 @@ body {
   .footer {
     height: 200px;
     background-color: #8659B4;
+    margin-top: 200px;
     //background-color: #801C7E;
     display: flex;
     align-items: flex-end;
