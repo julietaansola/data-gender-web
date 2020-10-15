@@ -34,7 +34,7 @@ const App = () => {
         <Route exact path="/" component={Home} />
         <Route exact path="/quienes-somos" component={WhoWeAre} />
         <Route exact path="/mision" component={Mision} />
-        <Route exact path="/blog" to="http://medium.com/@datagenero" /> 
+        <Route exact path="/blog" to="http://datagenero.medium.com" /> 
       </content>
 
       <footer className="footer">
