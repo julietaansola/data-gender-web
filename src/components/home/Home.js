@@ -8,16 +8,15 @@ const Home = () => {
   return (
     <div>
       <div className="home-container">
-        <img className="trama" alt="trama" src={trama}/>
-        <img className="home-title" alt="title" src={observatorioTitle}/>
+       <div className="title-container">
+         <div className="side-image"></div>
+        <h1 className="home-title"><strong>OBSERVATORIO</strong> DE <strong>DATOS</strong> <br /> CON <strong>PERSPECTIVA DE GÉNERO</strong></h1>
+        </div>
+        <img className="trama" alt="trama" src={trama} />
       </div>
-    <div className="home-content">
-    <HomeContent />
-    <HomeSlider/>
-    </div>
-      
-   
-
+      <div className="home-content">
+        <HomeContent />
+      </div>
     </div>
   );
 };

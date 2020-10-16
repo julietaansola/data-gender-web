@@ -1,4 +1,4 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
 .home-container {
   margin: 0;
   padding: 0;
@@ -6,19 +6,41 @@
   height: 100vh;
   width: 100%;
   position: relative;
-
-  .home-title {
-  height: 35%;
-  margin-top: 160px;
-  margin-left: 40px;
-  }
-
-  .trama {
-    height: 70%;
-    position: absolute;
-    top: 0px;
-    right: -100px;
+  .title-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    .side-image {
+      background-image: url('../../assets/side-image.png');
+      height: 15%;
+      width: 1.5vw;
+      position: absolute;
+      top: 35%;
+      left: 1%;
 
     }
-   
+      .home-title {
+        height: 35%;
+        width: 70vw;
+        font-size: 3.8vw;
+        font-family: "Montserrat";
+        position: absolute;
+        top: 30%;
+        left: 3.5%;
+        z-index: 9999;
+        color: #fafafa;
+        font-weight: lighter;
+      }
+    
+  }
+  .trama {
+    height: 80%;
+    width: 60vw;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+  }
 }
