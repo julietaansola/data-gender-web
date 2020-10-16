@@ -1,6 +1,7 @@
 import React from "react";
 import "./home.scss";
 import HomeContent from "../home-content/HomeContent.js";
+import HomeSlider from "../slider/HomeSlider"
 
 const Home = () => {
   return (
@@ -10,7 +11,13 @@ const Home = () => {
           OBSERVATORIO de DATOS con PERSPECTIVA de GÉNERO
         </h1>
       </div>
-      <HomeContent />
+    <div className="home-content">
+    <HomeContent />
+    <HomeSlider/>
+    </div>
+      
+   
+
     </div>
   );
 };
