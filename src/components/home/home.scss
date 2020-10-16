@@ -8,33 +8,28 @@
   position: relative;
   .title-container {
     display: flex;
-    width: 100%;
-    height: 100%;
-    position: relative;
+    position: absolute;
+    top: 30%;
+    left: 3.5%;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     .side-image {
-      background-image: url('../../assets/side-image.png');
-      height: 15%;
+      background-image: url("../../assets/side-image.png");
+      height: 70%;
       width: 1.5vw;
       position: absolute;
-      top: 35%;
-      left: 1%;
 
     }
-      .home-title {
-        height: 35%;
-        width: 70vw;
-        font-size: 3.8vw;
-        font-family: "Montserrat";
-        position: absolute;
-        top: 30%;
-        left: 3.5%;
-        z-index: 9999;
-        color: #fafafa;
-        font-weight: lighter;
-      }
-    
+    .home-title {
+      height: 100%;
+      width: 70vw;
+      font-size: 3.8vw;
+      font-family: "Montserrat";
+      z-index: 9999;
+      color: #fafafa;
+      margin-left:3vw;
+      font-weight: lighter;
+    }
   }
   .trama {
     height: 80%;

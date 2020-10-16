@@ -13,10 +13,7 @@ const HomeContent = () => {
             src={logo} alt="logo"
           />
           <p className="home-content-description">
-            El Observatorio tiene como objetivos sistematizar y
-            compartir los procesos integrales de producción de datos
-            con perspectiva de género, disponibilizar datos y articular entre diversos actores de la sociedad para poder realizar análisis y comunicaciones responsables, que puedan colaborar a la resolución de diversas poblemáticas
-            que afectan a mujeres y personas LGBTIQ+.
+            El Observatorio tiene como objetivos sistematizar y compartir los procesos integrales de producción de datos con perspectiva de género, disponibilizar datos y articular entre diversos actores de la sociedad para poder realizar análisis y comunicaciones responsables, que puedan colaborar a la resolución de diversas poblemáticas que afectan a mujeres y personas LGBTIQ+.
         </p>
         </div>
 

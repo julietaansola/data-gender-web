@@ -17,12 +17,11 @@ const App = () => {
           <NavLink className="link proyecto" to="/mision">
             Proyecto
           </NavLink>
-          <NavLink className="link who-we-are" exact to="/who-we-are">
+          <NavLink className="link who-we-are" exact to="/quienes-somos">
             Quiénes somos
           </NavLink>
-          <NavLink exact to="/blog" className="link blog">
-            Blog
-          </NavLink>
+          <a className="link blog" href="http://datagenero.medium.com">Blog</a> 
+
           <NavLink className="link contact" to="/">
             Contacto
           </NavLink>
@@ -33,7 +32,6 @@ const App = () => {
         <Route exact path="/" component={Home} />
         <Route exact path="/quienes-somos" component={WhoWeAre} />
         <Route exact path="/mision" component={Mision} />
-        <Route exact path="/blog" to="http://datagenero.medium.com" /> 
       </content>
 
       <footer className="footer">
