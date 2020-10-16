@@ -4,21 +4,24 @@ import { Route, NavLink, HashRouter } from "react-router-dom";
 import Home from "./components/home/Home";
 import WhoWeAre from "./components/who-we-are/WhoWeAre";
 import Mision from "./components/mision/Mision";
+
 const App = () => {
   return (
     <HashRouter>
       <header className="header">
         <nav className="navbar">
-          <button className="logo">G</button>
+          <NavLink className="link who-we-are" exact to="/">
+          <button className="logo"></button>
+          </NavLink>
           <div className="links-wrapper">
-          <NavLink className="link contact" to="/">
-            Home
+          <NavLink className="link proyecto" to="/mision">
+            Proyecto
           </NavLink>
-          <NavLink className="link who-we-are" exact to="/mision">
-            Mision
+          <NavLink className="link who-we-are" exact to="/who-we-are">
+            Quiénes somos
           </NavLink>
-          <NavLink className="link mision" to="/quienes-somos">
-            Quienes somos
+          <NavLink exact to="/blog" className="link blog">
+            Blog
           </NavLink>
           <NavLink className="link contact" to="/">
             Contacto
@@ -30,6 +33,7 @@ const App = () => {
         <Route exact path="/" component={Home} />
         <Route exact path="/quienes-somos" component={WhoWeAre} />
         <Route exact path="/mision" component={Mision} />
+        <Route exact path="/blog" to="http://datagenero.medium.com" /> 
       </content>
 
       <footer className="footer">
