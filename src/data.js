@@ -45,7 +45,7 @@ const info = [
       id: 2,
       name: "Paloma Urtizberea García",
       image:
-        "https://i.ibb.co/M5YsBBs/Flor-Savoca.jpg",
+        "https://i.ibb.co/P56QWy7/Paloma-000.jpg",
       description:"Física. Data Scientist @ Mercado Libre e Instituto del Cálculo. ",
       contact: "Contacto: https://www.linkedin.com/in/paloma-urtizberea-7a500291 / https://twitter.com/pepaurtiz"
     },
