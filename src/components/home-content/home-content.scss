@@ -27,6 +27,7 @@
   .aliadxs {
     background-color: rgb(228, 222, 222);
     width: 100%;
+    padding-bottom: 40px;
     .orgas-title {
       font-size: 2em;
       font-weight: bold;
@@ -35,11 +36,12 @@
     }
     .orgas-wrapper {
       display: flex;
-      flex-wrap: nowrap;
+      flex-wrap: wrap;
       justify-content: space-evenly;
       .orga {
-        width: 200px;
+        width: 180px;
       }
+      
     }
   }
 }
