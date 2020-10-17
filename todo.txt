@@ -5,3 +5,4 @@ To do:
 3. Hacer Footer y Header component. Hay que importar import { Route, NavLink, HashRouter } from "react-router-dom";
 en Header.
 4. Agregar en <Footer/> y <Header/> en App.js.
+(No recuerdo por qué queríamos hacer que footer y header sean componentes..)
