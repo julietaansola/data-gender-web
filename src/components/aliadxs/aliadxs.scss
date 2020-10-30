@@ -1,0 +1,22 @@
+
+  .aliadxs {
+    background-color: rgb(228, 222, 222);
+    width: 100%;
+    height: 100vh;
+    padding-bottom: 40px;
+    .orgas-title {
+      font-size: 2em;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 50px;
+    }
+    .orgas-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      .orga {
+        width: 180px;
+      }
+      
+    }
+  }
