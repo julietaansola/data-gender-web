@@ -7,29 +7,40 @@ body {
   font-family: "Montserrat", sans-serif;
   height: 100%;
   width: 100%;
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
   background-color: #fafafa;
+
   .header {
-    height: 80px;
-    background-color: #534f53;
+    height: 10vh;
+    background-color: #fafafa;
+    position: fixed;
+    width: 100%;
+    z-index: 4444;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    .logo-container{
+      width: 30%;
+      .logo {
+        border-style: none;
+        background-color: transparent;
+        background-image: url("./assets/button.png");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 5vw;
+        height: 5vw;
+        margin: 5px;
+      }
+    }
 
     .navbar {
+      width: 70%;
       display: flex;
-      justify-content: space-between;
+      justify-content: flex-end;
       align-content: center;
 
-      .logo {
-        margin: 10px;
-        margin-left: 25px;
-        height: 60px;
-        width: 50px;
-        border-style: none;
-        background-color: #534f53;
-        background-image: url("./assets/button.png");
-        background-size: cover;
-      }
       .links-wrapper {
         display: flex;
         justify-content: flex-end;
@@ -37,7 +48,7 @@ body {
 
         .link {
           text-decoration: none;
-          color: #fafafa;
+          color: #000000;
           margin: 10px;
           margin-top: 30px;
           font-family: "Montserrat", sans-serif;

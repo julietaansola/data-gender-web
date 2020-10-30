@@ -3,28 +3,33 @@
   width: 100%;
   display: flex;
   align-items: center;
-justify-content: center;
+  justify-content: center;
   .home-content {
     margin: 2vw;
 
     .description-wrapper {
-      width: 100vw;
       display: flex;
-      justify-content: space-evenly;
-      align-items: center;
+      width: 100%;
+      align-items: flex-end;
       flex-direction: row;
-      
+      justify-content: space-between;
       .home-content-image {
-        width: 20vw;
+        width: 50vw;
       }
 
+      .left-description-container{
+        width: 40vw;
+
+        .description-title{
+
+        }
       .home-content-description {
-        width: 35vw;
-        text-align: justify;
-        font-size: 1.7vw;
+        font-size: 1.2vw;
         color: #3d3d3d;
-
+        letter-spacing: 0.5px;
+        text-align: justify;
       }
+    }
     }
   }
 }

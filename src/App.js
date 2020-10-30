@@ -14,9 +14,11 @@ const App = () => {
   return (
     <HashRouter>
       <header className="header">
+      <div className="logo-container">
+      <button className="logo"></button>
+      </div>
         <nav className="navbar">
           <NavLink className="link who-we-are" exact to="/">
-          <button className="logo"></button>
           </NavLink>
           <div className="links-wrapper">
           <NavLink className="link proyecto" to="/mision">
@@ -33,6 +35,10 @@ const App = () => {
           </div>
         </nav>
       </header>
+
+
+
+
       <content className="content-wrapper">
         <Route exact path="/" component={Home} />
         <Route exact path="/quienes-somos" component={WhoWeAre} />
