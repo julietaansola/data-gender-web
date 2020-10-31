@@ -13,15 +13,13 @@ import Footer from "./components/footer/Footer";
 const App = () => {
   return (
     <HashRouter>
-      
-      <Header />
 
+      <Header />
       <content className="content-wrapper">
         <Route exact path="/" component={Home} />
         <Route exact path="/quienes-somos" component={WhoWeAre} />
         <Route exact path="/mision" component={Mision} />
-      </content>
-
+      </content>  
       <Footer />   
      
     </HashRouter>

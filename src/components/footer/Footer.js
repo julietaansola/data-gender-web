@@ -3,17 +3,31 @@ import "./footer.scss";
 import git from "../../assets/git.png";
 import tw from "../../assets/tw.png";
 import ig from "../../assets/ig.png";
+import { Route, NavLink, HashRouter } from "react-router-dom";
 
 const Footer = () => {
     return (
-        
-        
+                
         <div className="footer">
-        <a name="link-footer"></a>
-        <a href="https://twitter.com/datagenero"><img className="tw" alt="" src={tw} /></a>
-        <a href=""><img className="git" alt="" src={git} /></a>
-        <a href="https://www.instagram.com/datagenero/"><img className="ig" alt="" src={ig} /></a>
-        <div className="design">Diseñado y desarrollado por <a className="footer-link" href="https://github.com/maisli4"> Maia Slipczuk </a> y <a className="footer-link" href="https://github.com/camila-ng"> Camila González   </a></div>
+            
+            <div className="web-map">
+                <NavLink className="link home" to="/">
+                    Home
+                </NavLink>
+                <NavLink className="link proyecto" to="/mision">
+                    Proyecto
+                </NavLink>
+                <NavLink className="link who-we-are" exact to="/quienes-somos">
+                    Quiénes somos
+                </NavLink>
+                <a className="link blog" href="http://datagenero.medium.com">Blog</a> 
+            </div>
+            <div className="logos-wrapper">
+                <a href="https://twitter.com/datagenero"><img className="tw" alt="" src={tw} /></a>
+                <a href=""><img className="git" alt="" src={git} /></a>
+                <a href="https://www.instagram.com/datagenero/"><img className="ig" alt="" src={ig} /></a>
+            </div>
+            <div className="design">Diseñado y desarrollado por <a className="footer-link" href="https://github.com/maisli4"> Maia Slipczuk </a> y <a className="footer-link" href="https://github.com/camila-ng"> Camila González   </a></div>
        </div>
        
 
