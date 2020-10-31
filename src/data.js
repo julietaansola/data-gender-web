@@ -63,7 +63,7 @@ const info = [
       name: "Nadia Fusco",
       image:
         "https://i.ibb.co/X2hkxQS/Nachu-Fusco.jpg",
-      description:"Creativa publicitaria y fotógrafa. Creo campañas y contenidos estratégicos para redes sociales.Me especializo en ONGs y campañas con sentido social. Actualmente estoy en @EidosGlobal, organización de educación. Además tengo mi estudio de fotografía y comunicación comercial. ",
+      description:"Creativa publicitaria y fotógrafa. Creadora de campañas y contenidos estratégicos para redes sociales. Se especializa en ONGs y campañas con sentido social. Actualmente en @EidosGlobal.",
       contact: "Contacto: https://www.linkedin.com/in/nadiafusco/ / https://www.instagram.com/fusco.studio/"
     },
   ];
