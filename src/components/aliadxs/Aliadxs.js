@@ -5,16 +5,20 @@ import orga2 from "../../assets/orgas/metcba.png"
 import orga3 from "../../assets/orgas/rladies.png"
 import orga4 from "../../assets/orgas/wbio.png"
 import orga5 from "../../assets/orgas/wim.png"
+import aliadxs from '../../assets/aliadxs.png'
 const Aliadxs = () => {
-    return (
-        <div>
-          <div className="aliadxs-container">
-          <div className="image-title-container">
-          <div
+  return (
+    <div>
+      <section className="one">
+      </section>
+      <div className="aliadxs-container">
+        <div className="image-title-container">
+          <img
             className="aliadxs-img"
-          ></div>
-          </div>
-          <div className="orgas-container">
+            src={aliadxs} alt="aliadxs-img"
+          />
+        </div>
+        <div className="orgas-container">
           <p className="orgas-title">ORGANIZACIONES ALIADAS</p>
 
           <div className="orgas-wrapper">
@@ -24,12 +28,12 @@ const Aliadxs = () => {
             <a href="https://twitter.com/rladies_rciacte"><img className="orga 3" src={orga3} alt="" /></a>
             <a href="https://twitter.com/bioinfola"><img className="orga 4" src={orga4} alt="" /></a>
             <a href="http://wimlds.org/"><img className="orga 5" src={orga5} alt="" /></a>
-            
-          </div>
-          </div>
+
           </div>
         </div>
-    )
+      </div>
+    </div>
+  )
 }
 
 export default Aliadxs
