@@ -7,3 +7,4 @@ To do:
 5. Mostrar en la grilla de Quiénes somos "Contacto"
 6. Arreglar imágenes de grilla (descentradas)
 7. Que el logo del navbar deje de tener borde negro cuando se clickea
+8. Arreglar "Proyecto"

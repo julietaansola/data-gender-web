@@ -20,6 +20,7 @@ const App = () => {
         <Route exact path="/quienes-somos" component={WhoWeAre} />
         <Route exact path="/mision" component={Mision} />
       </content>  
+      
       <Footer />   
      
     </HashRouter>
