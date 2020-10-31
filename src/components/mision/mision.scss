@@ -1,31 +1,49 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
 
 .mision-wrapper {
+    
     font-family: "Montserrat";
-    margin-top: 40px;
-    margin-left: 250px;
-    margin-right: 250px;
+    width: 100%;
+    height: 100vh;
+    position: relative;
 
-    .mision-title{
-        font-size: 2.5em;
-        font-weight: bold;
-        margin-bottom: 15px;
-        position: relative;
-    }
-
+    .trama-wrapper{
     .trama {
         height: 60%;
         width: 60vw;
         position: absolute;
         top: 11%;
         right: 0%;
-        opacity: 0.2;
+        opacity: 0.4;
     }
+   }
 
-    p{
-        text-align: justify;
-        font-size: 1.1em;
-        line-height: 30px;
+    .mision-content {
+        position: absolute;
+        margin-top: 10%;
+        .mision-title{
+            
+            font-size: 2.5em;
+            font-weight: bold;
+            
+        }
+
+        p{
+            text-align: justify;
+            font-size: 1em;
+            line-height: 30px;
+
+            
+        }
+       
+        .two-columns {
         
+            -webkit-column-count: 2; /* Chrome, Safari, Opera */
+            -moz-column-count: 2; /* Firefox */
+            column-count: 2;
+        }
     }
 }
+
+
+

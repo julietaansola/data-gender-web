@@ -1,8 +1,7 @@
 To do:
 
 1. Hay que hacer que Contact vaya hacia el footer.
-2. Arreglar la grilla de Quiénes somos.
-3. Hacer Footer y Header component. Hay que importar import { Route, NavLink, HashRouter } from "react-router-dom";
-en Header.
-4. Agregar en <Footer/> y <Header/> en App.js.
-(No recuerdo por qué queríamos hacer que footer y header sean componentes..)
+2. Arreglar el scroll de home
+3. Arreglar navbar en pages
+4. Chequear info aliadxs y grilla
+5. Diseñado y desarrollado por (separar nombres)
