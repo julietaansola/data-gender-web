@@ -8,27 +8,23 @@ import orga5 from "../../assets/orgas/wim.png"
 import aliadxs from '../../assets/aliadxs.png'
 const Aliadxs = () => {
   return (
-    <div>
-      <section className="one">
+    <div className="aliadxs-container">
+      <section className="two">
       </section>
-      <div className="aliadxs-container">
-        <div className="image-title-container">
-          <img
-            className="aliadxs-img"
-            src={aliadxs} alt="aliadxs-img"
-          />
-        </div>
-        <div className="orgas-container">
-          <p className="orgas-title">ORGANIZACIONES ALIADAS</p>
 
-          <div className="orgas-wrapper">
+      <div className="aliadxs-content">
+        {/* <div className="picture-container">
+          picture
+        </div> */}
 
+        <div className="aliadxs-logo">
+          <h1 className="aliadxs-title">ORGANIZACIONES ALIADXS</h1>
+          <div>
             <a href="https://lasdesistemas.org/"><img className="orga 1" src={orga1} alt="" /></a>
             <a href="https://mujeresentecnologia.org/"><img className="orga 2" src={orga2} alt="" /></a>
             <a href="https://twitter.com/rladies_rciacte"><img className="orga 3" src={orga3} alt="" /></a>
             <a href="https://twitter.com/bioinfola"><img className="orga 4" src={orga4} alt="" /></a>
             <a href="http://wimlds.org/"><img className="orga 5" src={orga5} alt="" /></a>
-
           </div>
         </div>
       </div>
@@ -37,3 +33,11 @@ const Aliadxs = () => {
 }
 
 export default Aliadxs
+
+
+
+{/* <a href="https://lasdesistemas.org/"><img className="orga 1" src={orga1} alt="" /></a>
+<a href="https://mujeresentecnologia.org/"><img className="orga 2" src={orga2} alt="" /></a>
+<a href="https://twitter.com/rladies_rciacte"><img className="orga 3" src={orga3} alt="" /></a>
+<a href="https://twitter.com/bioinfola"><img className="orga 4" src={orga4} alt="" /></a>
+<a href="http://wimlds.org/"><img className="orga 5" src={orga5} alt="" /></a> */}

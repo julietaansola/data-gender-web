@@ -1,13 +1,15 @@
 .home-content{
   display: flex;
-  flex-direction: column;
+justify-content: center;  flex-direction: column;
+  max-width: 100%;
   section{
     padding: 10vh 0;
 
   }
   .one {
-    background: #8659b4;
     position: relative;
+    background-color: #8659b4;
+
   }
   
   .one::after,
@@ -16,7 +18,8 @@
     content: '';
     width: 10vw;
     height: 10vw;
-    background: #8659b4;
+    background-color: #8659b4;
+
     bottom: -1em;
     z-index: 100;
   }

@@ -1,41 +1,38 @@
 .aliadxs-container {
-  display: flex;
-  justify-content: center;
   width: 100%;
   height: 100vh;
-  .image-title-container {
-    display: flex;
-    flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  .two {
+    position: absolute;
+    left: -16%;
+    right: 34%;
+    top: 13px;
+    bottom: 95.64%;
+    background: #1a936f;
+    border-radius: 200%;
+    transform: matrix(-0.77, -0.17, 1.29, -0.94, 0, -16);
+  }
+  .aliadxs-content {
     width: 100%;
     height: 100%;
-    justify-content: center;
-    .aliadxs-img {
-      width: 50vw;
-    }
-  }
-  .orgas-container {
     display: flex;
-    flex-direction: column;
-    width: 50%;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-    .orgas-title {
-      font-size: 4vw;
-      font-family: "Montserrat", sans-serif;
-      font-weight: bold;
-      text-align: center;
-    }
-    .orgas-wrapper {
-      width: 50vw;
+    justify-content: space-evenly;
+
+    .aliadxs-logo {
       display: flex;
-      flex-wrap: wrap;
+      flex-direction: column;
       justify-content: center;
-      align-items: flex-start;
-      height: 50%;
+      align-items: center;
+
+      .aliadxs-title {
+        font-size: 5vw;
+        text-align: center;
+      }
       .orga {
-        width: 8vw;
-        margin-right: 20px;
+        width: 10vw;
+        height: 10vw;
+        margin-left: 20px;
       }
     }
   }
