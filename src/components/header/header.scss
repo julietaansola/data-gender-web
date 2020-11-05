@@ -25,21 +25,19 @@
             background-size: contain;
             background-repeat: no-repeat;
             outline-style: none;
-            
+            cursor: pointer;
         }
     }
+  }
 
-   
+  .navbar {
+    padding-right: 1vw;
+    display: flex;
+    justify-content: space-evenly;
 
-    
-    .navbar {
-        padding-right: 1vw;
-        display: flex;
-        justify-content: space-evenly;
-        
-        @media (max-width: 1024px){
-          margin-right: 10px;
-        }
+    @media (max-width: 1024px) {
+      margin-right: 10px;
+    }
 
         .link {
           text-decoration: none;
@@ -48,11 +46,10 @@
           font-family: "Montserrat", sans-serif;
           margin-right: 20px;
 
-          @media (max-width: 1024px){
-            font-size: 3.7vw;
-            margin-right: 10px;
-          }
-        }
+      @media (max-width: 1024px) {
+        font-size: 3.7vw;
+        margin-right: 10px;
       }
-    
+    }
   }
+  
