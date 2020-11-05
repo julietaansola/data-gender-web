@@ -52,11 +52,11 @@ const info = [
     
     {
       id: 2,
-      name: "Florencia Savoca Truzzo",
+      name: "Susana Baquero Ospina",
       image:
-        "https://i.ibb.co/M5YsBBs/Flor-Savoca.jpg",
-      description:"Licenciada en Economía y Magíster en Relaciones Internacionales. Investigadora en The Global Women's Institute.",
-      contact: "Contacto: www.linkedin.com/in/florenciasavocatruzzo / https://twitter.com/FlorSavocaT"
+        "https://i.ibb.co/DPJTgGS/Susi.jpg",
+      description:"Licenciada en Publicidad (Universidad de Belgrano) especializada en pensamiento visual (Escuela Relacional) con una pasión por los datos que nació al estudiar en Acámica, lugar en el que actualmente trabaja como Media Research Analyst.",
+      contact: "Contacto: https://www.linkedin.com/in/susana-baquero-ospina-23359b9a/ https://twitter.com/susan_phi www.instagram.com/susan.phi/"
     },
     {
       id: 2,

@@ -6,7 +6,7 @@ const Mision = () => {
     return (
         <>
         <div className="mision-wrapper">
-           <div className="trama-wrapper"><img className="trama" alt="trama" src={trama} /></div>
+           
             <div className="mision-content">
                 <span className="mision-title">Nuestro proyecto</span>
                 

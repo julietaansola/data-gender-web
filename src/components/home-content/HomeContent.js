@@ -20,7 +20,7 @@ const HomeContent = () => {
             />
 
             <div className="left-description-container">
-              <h1 className="description-title">SOMOS EL NUEVO OBSERVATORIO</h1>
+              <h1 className="description-title">SIN IGUALDAD DE DATOS NO HAY IGUALDAD DE GÉNERO</h1>
               <p className="home-content-description">
                 Tenemos como objetivo sistematizar y compartir los procesos integrales de producción de datos con perspectiva de género, disponibilizar datos y articular entre diversos actores de la sociedad para poder realizar análisis y comunicaciones responsables, que puedan colaborar a la resolución de diversas poblemáticas que afectan a mujeres y personas LGBTIQ+.
         </p>

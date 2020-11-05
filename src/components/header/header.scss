@@ -11,8 +11,8 @@
       .link-button {
         padding-left: 1vw;
         border-style: none;
-        border-color: transparent;
-        text-decoration: none;
+        outline-style: none;
+        
 
         .logo {
             width: 8vw;
@@ -24,6 +24,8 @@
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
+            outline-style: none;
+            
         }
     }
 
@@ -44,7 +46,7 @@
           color: #000000;
           font-size: 1.2vw;
           font-family: "Montserrat", sans-serif;
-          margin-right: 10px;
+          margin-right: 20px;
 
           @media (max-width: 1024px){
             font-size: 3.7vw;
