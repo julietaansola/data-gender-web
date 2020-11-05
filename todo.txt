@@ -1,8 +1,6 @@
 To do:
 
 1. Hay que hacer que Contact vaya hacia el footer
-2. Arreglar el scroll de home
-3. Arreglar navbar CHECK
 4. Agregar dos personas nuevas a Quiénes somos
 5. Mostrar en la grilla de Quiénes somos "Contacto"
 6. Arreglar imágenes de grilla (descentradas)
