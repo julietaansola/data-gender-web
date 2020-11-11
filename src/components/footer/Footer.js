@@ -33,7 +33,7 @@ const Footer = () => {
                 <p className="contacto-mail">datagenero@gmail.com</p>
             </div>
             </div>
-            <div className="design">Diseñado y desarrollado por <a className="footer-link" href="https://github.com/maisli4">Maia Slipczuk </a> y <a className="footer-link" href="https://github.com/camila-ng"> Camila González   </a></div>
+            <div className="design">Diseñado y desarrollado por <a className="footer-link" href="https://github.com/maisli4">Maia Slipczuk </a></div>
        </div>
        
 
