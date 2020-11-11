@@ -8,7 +8,7 @@ import { Route, NavLink, HashRouter } from "react-router-dom";
 const Footer = () => {
     return (
                 
-        <div className="footer">
+        <div id="footer" className="footer">
            <div className="main-footer"> 
             <div className="web-map">
                 <NavLink className="link home" to="/">

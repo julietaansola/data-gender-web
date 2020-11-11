@@ -12,7 +12,7 @@
         padding-left: 1vw;
         border-style: none;
         outline-style: none;
-        
+        cursor: pointer;
 
         .logo {
             width: 8vw;
@@ -45,6 +45,7 @@
           font-size: 1.2vw;
           font-family: "Montserrat", sans-serif;
           margin-right: 20px;
+          cursor: pointer;
 
       @media (max-width: 1024px) {
         font-size: 3.7vw;

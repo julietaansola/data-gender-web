@@ -12,6 +12,7 @@
     "react-page-scroller": "^2.0.9-beta",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
+    "react-scroll": "^1.8.1",
     "react-slick": "^0.27.11",
     "react-spring": "^8.0.27",
     "slick-carousel": "^1.8.1"

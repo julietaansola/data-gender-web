@@ -1,6 +1,7 @@
 import React from 'react';
 import "./header.scss";
 import { Route, NavLink, HashRouter } from "react-router-dom";
+import {Link} from 'react-scroll'
 
 const Header = () => {
     return (
@@ -16,9 +17,7 @@ const Header = () => {
             Quiénes somos
           </NavLink>
           <a className="link blog" href="http://datagenero.medium.com">Blog</a> 
-          <NavLink className="link contact" to="/">
-            Contacto
-          </NavLink>
+          <Link className="link contact" to="footer" spy={true} smooth={true}>Contacto</Link>
          </nav>
       </header>
     
