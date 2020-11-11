@@ -17,22 +17,6 @@
     background-color: #8659b4;
   }
 
-  .one::after,
-  .one::before {
-    position: absolute;
-    content: "";
-    width: 10vw;
-    height: 10vw;
-    background-color: #8659b4;
-    bottom: -1em;
-    z-index: 100;
-
-    @media (max-width: 1024px) {
-      bottom: -0.5em;
-      width: 38vw;
-    }
-  }
-
   .one::before {
     right: 50%;
     transform: skew(0, 19deg);
