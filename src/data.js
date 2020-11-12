@@ -29,7 +29,7 @@ const info = [
       name: "Mailén García",
       image:
         "https://i.ibb.co/6PQrMx5/Mai.jpg",
-      description:"Licenciada en Sociología. Magíster en Derechos Humanos y Democratización en América Latina y el Caribe. Investigadora y docente. Obsesionada por los datos. Ex integrante de equipos de estadística y datos abiertos de la provincia de Buenos Aires y Mar del Plata. ",
+      description:"Lic. en Sociología. Magíster en Derechos Humanos y Democratización en América Latina y el Caribe. Investigadora y docente. Obsesionada por los datos. Ex integrante de equipos de estadística y datos abiertos de la prov. de Bs As y Mar del Plata. ",
       contact: "Contacto: https://www.linkedin.com/in/mailenagarcia/ / https://twitter.com/maigarcia24"
       
     },
@@ -55,7 +55,7 @@ const info = [
       name: "Susana Baquero Ospina",
       image:
         "https://i.ibb.co/DPJTgGS/Susi.jpg",
-      description:"Licenciada en Publicidad (Universidad de Belgrano) especializada en pensamiento visual (Escuela Relacional) con una pasión por los datos que nació al estudiar en Acámica, lugar en el que actualmente trabaja como Media Research Analyst.",
+      description:"Lic. en Publicidad (UB) especializada en pensamiento visual, con una pasión por los datos que nació al estudiar en Acámica, lugar en el que actualmente trabaja como Media Research Analyst.",
       contact: "Contacto: https://www.linkedin.com/in/susana-baquero-ospina-23359b9a/ https://twitter.com/susan_phi www.instagram.com/susan.phi/"
     },
     {

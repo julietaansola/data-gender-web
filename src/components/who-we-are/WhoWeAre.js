@@ -15,6 +15,12 @@ const WhoWeAre = () => {
           </div>
         ))}
       </section>
+        <div className="colab-wrapper">
+          <span className="colab-title">COLABORACIONES</span>
+          <p className="colab-p"> Pablo C. Casas / Roberta Davagnino / Maia Slipczuk / Lucas De Nardo / Giselle Arena / Ana Velez Rueda
+          </p>
+        </div>
+      
     </div>
   );
 };

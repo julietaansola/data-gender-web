@@ -13,7 +13,7 @@ const Aliadxs = () => {
 
       <div className="aliadxs-content">
         <div className="aliadxs-logo">
-          <h1 className="aliadxs-title">ORGANIZACIONES ALIADXS</h1>
+          <h1 className="aliadxs-title">ORGANIZACIONES ALIADAS</h1>
           <div className="logo-wrapper">
             <a href="https://lasdesistemas.org/"><img className="orga 1" src={orga1} alt="" /></a>
             <a href="https://mujeresentecnologia.org/"><img className="orga 2" src={orga2} alt="" /></a>
