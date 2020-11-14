@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/data-gender-web/static/css/main.1c75f667.chunk.css",
+    "main.js": "/data-gender-web/static/js/main.2959ea2a.chunk.js",
+    "main.js.map": "/data-gender-web/static/js/main.2959ea2a.chunk.js.map",
+    "runtime-main.js": "/data-gender-web/static/js/runtime-main.d8d7951c.js",
+    "runtime-main.js.map": "/data-gender-web/static/js/runtime-main.d8d7951c.js.map",
+    "static/js/2.3af64dd2.chunk.js": "/data-gender-web/static/js/2.3af64dd2.chunk.js",
+    "static/js/2.3af64dd2.chunk.js.map": "/data-gender-web/static/js/2.3af64dd2.chunk.js.map",
+    "index.html": "/data-gender-web/index.html",
+    "precache-manifest.742fe97afc0f62d008d7e967a4c62614.js": "/data-gender-web/precache-manifest.742fe97afc0f62d008d7e967a4c62614.js",
+    "service-worker.js": "/data-gender-web/service-worker.js",
+    "static/css/main.1c75f667.chunk.css.map": "/data-gender-web/static/css/main.1c75f667.chunk.css.map",
+    "static/js/2.3af64dd2.chunk.js.LICENSE.txt": "/data-gender-web/static/js/2.3af64dd2.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/data-gender-web/static/media/ArcaMajora3-Bold.abb41fcd.ttf",
+    "static/media/header.scss": "/data-gender-web/static/media/button.359490e7.png",
+    "static/media/fondo-home.png": "/data-gender-web/static/media/fondo-home.2005367f.png",
+    "static/media/lasDeSist.png": "/data-gender-web/static/media/lasDeSist.c5544d96.png",
+    "static/media/metcba.png": "/data-gender-web/static/media/metcba.2831a866.png",
+    "static/media/mision-1.png": "/data-gender-web/static/media/mision-1.0cf0876d.png",
+    "static/media/mision-2.png": "/data-gender-web/static/media/mision-2.a81ae340.png",
+    "static/media/rladies.png": "/data-gender-web/static/media/rladies.84c3f200.png",
+    "static/media/trama.png": "/data-gender-web/static/media/trama.6f4e1c1f.png",
+    "static/media/wbio.png": "/data-gender-web/static/media/wbio.388a09b7.png",
+    "static/media/wim.png": "/data-gender-web/static/media/wim.a5e73fcd.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d8d7951c.js",
+    "static/js/2.3af64dd2.chunk.js",
+    "static/css/main.1c75f667.chunk.css",
+    "static/js/main.2959ea2a.chunk.js"
+  ]
+}
